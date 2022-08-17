@@ -25,8 +25,12 @@ Advanced users may find this extremely easy and can easily write this in one lin
 
 
 def sum_array(a):
+    a = [];
+    sum = 0;
+
     return
 
+"""
 
 arr = [7, 5, -1];
 sum = 0;
@@ -36,3 +40,4 @@ for i in range(0, len(arr)):
 
 print(sum);
 
+"""
