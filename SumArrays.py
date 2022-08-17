@@ -60,13 +60,16 @@ Completed in 0.06ms
 You have passed all of the tests! :)
 """
 
-def _sum(arr):
+def sum_array(a):
     sum = 0
-    for i in arr:
+    for i in a:
         sum = sum + i
     return (sum)
-arr = []
-arr = [12, 3, 4, 15]
-n = len(arr)
-ans = _sum(arr)
-print('Sum of the array is ', ans)
+a = []
+
+
+print(sum_array([]))
+print(sum_array([1, 2, 3]))
+print(sum_array([1.1, 2.2, 3.3]))
+print(sum_array([4, 5, 6]))
+print(sum_array(range(101)))
