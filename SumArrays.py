@@ -34,5 +34,5 @@ sum = 0;
 for i in range(0, len(arr)):
     sum = sum + arr[i];
 
-print("Summ of all elemments of an arry:" + str(sum));
+print(sum);
 
