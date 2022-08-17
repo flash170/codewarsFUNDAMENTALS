@@ -27,6 +27,8 @@ for i in range(0, len(arr)):
 
 print("Sum of all the elements of an array: " + str(sum))
 """
+# working, dont test passed from codewars
+"""
 def sum_array(a):
     #a = []
     sum = 0
@@ -45,3 +47,26 @@ print(sum_array([1, 2, 3]))
 print(sum_array([1.1, 2.2, 3.3]))
 print(sum_array([4, 5, 6]))
 print(sum_array(range(101)))
+"""
+
+
+# Working test
+"""
+Test Results:
+Testing sum array
+Fixed tests
+ (5 of 5 Assertions)
+Completed in 0.06ms
+You have passed all of the tests! :)
+"""
+
+def _sum(arr):
+    sum = 0
+    for i in arr:
+        sum = sum + i
+    return (sum)
+arr = []
+arr = [12, 3, 4, 15]
+n = len(arr)
+ans = _sum(arr)
+print('Sum of the array is ', ans)
