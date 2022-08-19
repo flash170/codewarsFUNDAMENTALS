@@ -15,3 +15,14 @@ time = 11.8--> litres = 5
 
 """
 
+#worked with out func
+import math
+
+time = 11.8
+litersperhour = 0.5
+
+liters = math.floor(time * litersperhour)
+
+print(liters)
+
+
