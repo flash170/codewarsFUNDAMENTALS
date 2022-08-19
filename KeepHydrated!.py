@@ -15,14 +15,19 @@ time = 11.8--> litres = 5
 
 """
 
-#worked with out func
-import math
+# worked with out func
 
-time = 11.8
-litersperhour = 0.5
+"""time = 11.8
 
-liters = math.floor(time * litersperhour)
+liters = time * 0.5
 
-print(liters)
+print(int (liters))"""
 
 
+# working with func
+def litres(time):
+    liters = time * 0.5
+    return int(liters)
+
+
+print(litres(11.8))
