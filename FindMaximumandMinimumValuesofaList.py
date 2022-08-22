@@ -11,3 +11,21 @@ Notes
 You may consider that there will not be any empty arrays/vectors.
 
 """
+
+"""a = [4, 6, 2, 1, 9, 63, -134, 566]
+max(a)
+print(max(a))
+print(min(a))"""
+
+
+def minimum(arr):
+    return min(arr)
+
+
+print(minimum([2, 5, -3, -55]))
+
+def mmaximum(arr):
+    return max(arr)
+
+
+print(mmaximum([2, 5, -3, -55]))
