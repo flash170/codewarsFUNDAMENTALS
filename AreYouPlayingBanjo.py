@@ -13,11 +13,23 @@ b = "Yura"
 c = "room"
 d = "Kira"
 
-print(a[0])
+"""print(a[0])
 
 first = c[0]
 print(first)
 if first == "R" or "r":
     print(c + " " + "plays banjo")
 else:
-    print(c + " " + "does not play banjo")
+    print(c + " " + "does not play banjo")"""
+
+
+def are_you_playing_banjo(name):
+    firstsymbol = name[0]
+    if firstsymbol == "R" or firstsymbol == "r":
+        return name + " " + "plays banjo"
+    else:
+        return name + " " + "does not play banjo"
+    #return name
+
+
+print(are_you_playing_banjo("Rikki"))
