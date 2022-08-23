@@ -32,4 +32,4 @@ def are_you_playing_banjo(name):
     #return name
 
 
-print(are_you_playing_banjo("Rikki"))
+print(are_you_playing_banjo("Rikkii"))
