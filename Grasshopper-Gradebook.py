@@ -11,7 +11,7 @@ Numerical Score	Letter Grade
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
 """
 
-a = 58
+"""a = 58
 b = 56
 c = 51
 
@@ -26,4 +26,22 @@ elif 60 <= a and b and c < 70:
 elif 50 <= a and b and c < 60:
     print("F")
 else:
-    print("Error")
+    print("Error")"""
+
+
+def get_grade(s1, s2, s3):
+    if 90 <= (s1 + s2 + s3)/3 <= 100:
+        return "A"
+    elif 80 <= (s1 + s2 + s3)/3 < 90:
+        return "B"
+    elif 70 <= (s1 + s2 + s3)/3 < 80:
+        return "C"
+    elif 60 <= (s1 + s2 + s3)/3 < 70:
+        return "D"
+    elif 0 <= (s1 + s2 + s3)/3 < 60:
+        return "F"
+    else:
+        print("Error")
+
+
+print(get_grade(65, 61, 69))
