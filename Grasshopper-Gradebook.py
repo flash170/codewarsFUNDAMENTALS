@@ -10,3 +10,20 @@ Numerical Score	Letter Grade
 0 <= score < 60	'F'
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
 """
+
+a = 58
+b = 56
+c = 51
+
+if 90 <= a and b and c <= 100:
+    print("A")
+elif 80 <= a and b and c < 90:
+    print("B")
+elif 70 <= a and b and c < 80:
+    print("C")
+elif 60 <= a and b and c < 70:
+    print("D")
+elif 50 <= a and b and c < 60:
+    print("F")
+else:
+    print("Error")
