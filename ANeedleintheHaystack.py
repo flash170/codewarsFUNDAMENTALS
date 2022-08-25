@@ -12,3 +12,30 @@ Example(Input --> Output)
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5"
 Note: In COBOL, it should return "found the needle at position 6"
 """
+
+haystack = ["hay", "jank", "hay", "moreJunk", "needle", "randomJunk"]
+for i in range(0, len(haystack)):
+    if haystack[i] == "needle":
+        print("found the needle at position ", i)
+    else:
+        i = i + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
