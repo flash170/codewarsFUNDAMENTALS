@@ -21,3 +21,7 @@ def make_negative( number ):
 
 print(make_negative(5))
 print(make_negative(0))
+
+#or
+def make_negative( number ):
+    return -abs(number)
