@@ -10,3 +10,14 @@ The number can be negative already, in which case no change is required.
 Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
 """
 
+"""a: int = 5
+
+print(- abs(a))"""
+
+def make_negative( number ):
+    number = - abs(number)
+    return number
+
+
+print(make_negative(5))
+print(make_negative(0))
