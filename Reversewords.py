@@ -8,12 +8,20 @@ Examples
 """
 
 a = "This is an example!"
+x = a.split(" ")
 #print(a)
 
-x = a.split(" ")
+"""
 print(x[0])
 stringlength = len(x[0])
 slicedString = x[0][stringlength::-1]
 print(slicedString)
 
-print(stringlength)
+print(stringlength)"""
+
+for i in range(0, len(x)):
+    stringlength = len(x[i])
+    slicedString = x[i][stringlength::-1]
+    slicedString += " "
+    print(slicedString)
+
