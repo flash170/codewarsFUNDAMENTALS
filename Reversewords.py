@@ -22,6 +22,7 @@ print(stringlength)"""
 for i in range(0, len(x)):
     stringlength = len(x[i])
     slicedString = x[i][stringlength::-1]
-    slicedString += " "
+    if i != len(x) -1:
+        slicedString += " "
     print(slicedString)
 
