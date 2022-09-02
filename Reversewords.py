@@ -19,16 +19,27 @@ print(slicedString)
 
 print(stringlength)"""
 
-for i in range(0, len(x)):
+"""for i in range(0, len(x)):
     stringlength = len(x[i])
     slicedString = x[i][stringlength::-1]
     if i != len(x) - 1:
         slicedString += " "
     print(slicedString)
-    #print(type(slicedString))
+    #print(type(slicedString))"""
 
 def reverse_words(text):
   return ' '.join(word[::-1] for word in text.split(" "))
 
+
+print(reverse_words("This is an example!"))
+
+
+
+def reverse_words(str):
+  #go for it
+  newStr = []
+  for i in str.split(' '):
+      newStr.append(i[::-1])
+  return ' '.join(newStr)
 
 print(reverse_words("This is an example!"))
