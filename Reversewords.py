@@ -8,7 +8,7 @@ Examples
 """
 
 a = "This is an example!"
-x = a.split(" ")
+x = list(a.split(" "))
 #print(a)
 
 """
@@ -22,7 +22,13 @@ print(stringlength)"""
 for i in range(0, len(x)):
     stringlength = len(x[i])
     slicedString = x[i][stringlength::-1]
-    if i != len(x) -1:
+    if i != len(x) - 1:
         slicedString += " "
     print(slicedString)
+    #print(type(slicedString))
 
+def reverse_words(text):
+  return ' '.join(word[::-1] for word in text.split(" "))
+
+
+print(reverse_words("This is an example!"))
